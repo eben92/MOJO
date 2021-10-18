@@ -1,0 +1,20 @@
+::before,
+::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $ff;
+  background: $body-bg-color;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

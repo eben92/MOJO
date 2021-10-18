@@ -1,0 +1,126 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- end of font awesome 5 cdn -->
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>MOJO Template</title>
+  </head>
+  <body>
+    <!-- sidebar -->
+    <aside class="sidebar-container">
+      <div class="sidebar-header">
+        <div class="logo">
+          <i class="fab fa-envira"></i>
+          <h4>MOJO</h4>
+        </div>
+      </div>
+
+      <div class="seach">
+        <input type="text" id="search" />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="sidebar-links">
+        <ul>
+          <a href=""
+            ><li><i class="fas fa-home"></i>dashboard</li></a
+          >
+          <a href=""
+            ><li><i class="far fa-user"></i>clients</li></a
+          >
+          <a href=""
+            ><li><i class="fas fa-layer-group"></i>my documents</li></a
+          >
+          <a href=""
+            ><li><i class="fas fa-folder-minus"></i>cases</li></a
+          >
+          <a href=""
+            ><li><i class="fas fa-cog"></i>my account</li></a
+          >
+          <a href=""
+            ><li><i class="fas fa-sign-out-alt"></i>log out</li></a
+          >
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- main -->
+    <main>
+      <div class="main-nav-container">
+        <div class="right-btns">
+          <button class="new-doc" id="new-doc">
+            <i class="fas fa-plus"></i>new documents
+          </button>
+          <button class="new-doc"><i class="fas fa-plus"></i>new case</button>
+          <button class="new-doc">
+            <i class="far fa-user"></i>invite team member
+          </button>
+        </div>
+        <div class="profile">
+          <div class="user-name">
+            <h5>ben dell <i class="fas fa-chevron-down"></i></h5>
+          </div>
+          <div class="user-img">
+            <img src="./assets/dp.jpeg" alt="" />
+            <div class="notifications">
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- template body -->
+      <section>
+        <div class="template-container">
+          <h1>Select template</h1>
+          <div class="template-search-btn">
+            <div class="seach-temp-container">
+              <input
+                type="text"
+                id="search-template"
+                placeholder="Search templates"
+              />
+              <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <button class="new-template">New template</button>
+          </div>
+        </div>
+
+        <div class="template-body"></div>
+        <!-- mojo main footer -->
+        <section id="footer">
+          <div id="main-body-footer">
+            <div class="copyright">
+              <p>2014 mojo inc</p>
+            </div>
+            <div class="more-info">
+              <ul>
+                <a href=""><li>contact us</li></a>
+                <a href=""><li>faq</li></a>
+                <a href=""><li>terms & conditions</li></a>
+                <a href=""><li>privacy policy</li></a>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- end of mogo main footer -->
+      </section>
+      <!-- end of template body -->
+    </main>
+
+    <!-- end of main -->
+  </body>
+</html>

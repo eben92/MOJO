@@ -1,0 +1,10 @@
+// variables / global
+@import "variables";
+@import "global";
+
+// sidebar / navbar
+@import "./components/sidebar";
+@import "./components/navbar";
+
+// main
+@import "./components/main";
