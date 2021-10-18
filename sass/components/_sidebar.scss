@@ -8,7 +8,9 @@
       align-items: center;
       padding: 20px;
       background: $sidebar-header-bg;
-      color: $text-color;
+      a {
+        color: $text-color;
+      }
 
       i {
         margin-right: 15px;

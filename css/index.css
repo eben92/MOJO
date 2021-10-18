@@ -31,6 +31,8 @@ li {
   align-items: center;
   padding: 20px;
   background: #2b2a2a;
+}
+.sidebar-container .sidebar-header .logo a {
   color: #bdbdbd;
 }
 .sidebar-container .sidebar-header .logo i {
