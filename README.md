@@ -5,7 +5,7 @@ A simple dashboard built with HTML CSS JAVASCRIPT
 
 how to run the code on your local machine
 
-npm install
+$ npm install
 
 in the terminal, run GULP 
 this will help compile scss files into css
