@@ -5,20 +5,30 @@ A simple dashboard built with HTML CSS JAVASCRIPT
 
 how to run the code on your local machine
 
-$ npm install
+    $ npm install
 
-in the terminal, run GULP 
-this will help compile scss files into css
+In the terminal, run       
+
+
+     $ GULP 
+
+
+
+This will help compile SCSS files into CSS,
 after editng
 
-now you can use the VSCODE liveserver extension to view it live on your local machine
-feel free to edit the code
+Now you can use the VSCODE liveserver extension to view it live on your local machine
+
+Feel free to edit the code
 
 tech stack used
-html
-SCSS
-javascript
+
+- HTML
+- SCSS
+- JAVASCRIPT
 
 commands you need to know
-- GULP
+
+
+    $ GULP
 
