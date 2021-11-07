@@ -1,12 +1,15 @@
 See it live here https://mojodashboard.netlify.app/
 
+A simple dashboard built with HTML CSS JAVASCRIPT
+
+
 how to run the code on your local machine
 
-run npm install
+npm install
 
 in the terminal, run GULP 
 this will help compile scss files into css
-after eding
+after editng
 
 now you can use the VSCODE liveserver extension to view it live on your local machine
 feel free to edit the code
